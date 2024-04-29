@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
+  m_Name: Fernando
+  m_EditorClassIdentifier: 
+  characterName: Fernando
+  characterDescription: DESC_FERN
+  infoSpritesPersonajesLeft:
+  - {fileID: 11400000, guid: 05eb0facbb0305c4b9035666d9487dda, type: 2}
+  - {fileID: 11400000, guid: 7376ad094f245f24dbe8af534f01d536, type: 2}
+  - {fileID: 11400000, guid: eb4c12473dc683a46bcdb8ad2bf4ad15, type: 2}
+  infoSpritesPersonajesRight:
+  - {fileID: 11400000, guid: 5cb658461b8ad62468d91a853661ad39, type: 2}
+  - {fileID: 11400000, guid: c058437d10ced784c93c942e80681353, type: 2}
+  - {fileID: 11400000, guid: a6a3ff5fcf536124d92fd4aa698efff2, type: 2}

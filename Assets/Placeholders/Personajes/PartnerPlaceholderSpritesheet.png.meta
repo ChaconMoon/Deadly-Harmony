@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: d3c3399b7af97744ea0b5bb39427e0c9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 90
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 411
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82436056753e7774bbd2efe9cb5dd859
+      internalID: 396838260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_1
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7551fdddd23f6864197ab4b5ff68a7b4
+      internalID: -1574285204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 411
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3e618850db7d94ba53127b4b4688e1
+      internalID: 1264154224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2c8ab9bb99aa94e954099066f549eb
+      internalID: -956769501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_4
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 411
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2fdc40aa857a346ade033ce0ed0970
+      internalID: 2118276939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 408
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5563dbda02f49c04183e7f5fb7d360ea
+      internalID: 237287543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_6
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 411
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42422a595936f624385c6a9dc32f3a36
+      internalID: 1812774858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_7
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 408
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5019191de9e1fb46be8f9e92955517c
+      internalID: -1937363113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 274
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d477b8c9c0446e246822760f145a4df8
+      internalID: -63700678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_9
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 274
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152286c3ed75140429e0cd9728f48a12
+      internalID: 1961010675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_10
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 274
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7975a628f9f761a4baa9485f480796ad
+      internalID: 381899847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_11
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 274
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e935273fb965b54a948e0f8dfeca77c
+      internalID: -232647578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_12
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 274
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e92f0438ad38a14da02217fa3866e33
+      internalID: 1656073299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_13
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 274
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bd64e90f739314cbeb325ead217a34
+      internalID: 197136776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_14
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 274
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d68aa7403b38204a95681723c9eedfe
+      internalID: 1802001012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_15
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 274
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50fd87b28d5e584c87a0791fbaa43cd
+      internalID: 998313389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_16
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 139
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174d7fc9f5b7f264f8a0e4c7332ea5fb
+      internalID: 82265154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_17
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 139
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80ed88365834b94c9403c8d906c1f64
+      internalID: 1538889676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_18
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 139
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f10257a6df1ad548b0be3b8fb3d8418
+      internalID: 2076281486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_19
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 139
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9fa6ba6666c7aa49b54ea986a0a8112
+      internalID: 1341586851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_20
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 139
+        width: 129
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b143bf8ee2131848bc1a0df82e7aabe
+      internalID: 2096518926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_21
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 139
+        width: 131
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b87db8e5f09111449a83290a2e6b7f5
+      internalID: 1772126099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_22
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 139
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ff30976641f6c4f8dae0b6e0fe2803
+      internalID: -686587585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_23
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 139
+        width: 132
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e52ee3b308c7f740b1be29121572817
+      internalID: -2117542822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02a6abfb70c045d4b9ed129c767cbabe
+      internalID: 613360775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_25
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c26ca0b6f391c44a9072d4f7b4053e
+      internalID: -1245635309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_26
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77da4b4ac936b4f44862e778cf52c299
+      internalID: -1487674849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_27
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2be725aac82e140967d8a860690167
+      internalID: 1594993238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_28
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ca27f9709f3274abd763b490c6c810
+      internalID: -1600399103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_29
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0e78eb73a67a74ebc3ad6cac64a711
+      internalID: 387321892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_30
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 5
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e26c22e7ad69294cbf3225c915302ef
+      internalID: -1022261805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_0: 396838260
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_1: -1574285204
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_10: 381899847
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_11: -232647578
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_12: 1656073299
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_13: 197136776
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_14: 1802001012
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_15: 998313389
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_16: 82265154
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_17: 1538889676
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_18: 2076281486
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_19: 1341586851
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_2: 1264154224
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_20: 2096518926
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_21: 1772126099
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_22: -686587585
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_23: -2117542822
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_24: 613360775
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_25: -1245635309
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_26: -1487674849
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_27: 1594993238
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_28: -1600399103
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_29: 387321892
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_3: -956769501
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_30: -1022261805
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_4: 2118276939
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_5: 237287543
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_6: 1812774858
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_7: -1937363113
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_8: -63700678
+      danganronpa-pixel-sprite-templates-made-by-me-v0-i1ak9ploecga1_9: 1961010675
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

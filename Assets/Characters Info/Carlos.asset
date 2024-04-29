@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
+  m_Name: Carlos
+  m_EditorClassIdentifier: 
+  characterName: Carlos
+  characterDescription: DESC_DET2
+  infoSpritesPersonajesLeft:
+  - {fileID: 11400000, guid: 99627fa9554615b4aa69371f5dd51619, type: 2}
+  - {fileID: 11400000, guid: bd27707e196fd7b428c1f2659bef0173, type: 2}
+  - {fileID: 11400000, guid: a9a9a5a3733e1d24d939e80ab8f9e326, type: 2}
+  infoSpritesPersonajesRight:
+  - {fileID: 11400000, guid: 0922a0e333fc27c449cd117c1bf1bebc, type: 2}
+  - {fileID: 11400000, guid: 977ef885bc001c34989c8d8b40112882, type: 2}
+  - {fileID: 11400000, guid: ed4508ca5de702247865a05430dbae4b, type: 2}
