@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
   m_Name: TiffanyDiamond
   m_EditorClassIdentifier: 
-  characterName: 
-  characterDescription: 
-  infoSpritesPersonajes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  characterName: Tiffany Diamond
+  characterDescription: Chica pija a tiempo completo
+  infoSpritesPersonajesLeft:
+  - {fileID: 11400000, guid: 11fd9f49a605cea43bf76a6871d44bc3, type: 2}
+  - {fileID: 11400000, guid: b6ff65ea104195a4d96fa263edd7a128, type: 2}
+  - {fileID: 11400000, guid: d071c50c18858d1448dc9b115cc56a24, type: 2}
+  infoSpritesPersonajesRight:
+  - {fileID: 11400000, guid: 3aed4e92cc63cb047bf9362805f47d42, type: 2}
+  - {fileID: 11400000, guid: 8ebec3baf9e18f84c8307bd29378bee9, type: 2}
+  - {fileID: 11400000, guid: e7ed959a5c4f26748a3c9866e3f1731e, type: 2}

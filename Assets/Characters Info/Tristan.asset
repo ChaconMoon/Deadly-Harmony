@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
   m_Name: Tristan
   m_EditorClassIdentifier: 
-  characterName: 
-  characterDescription: 
-  infoSpritesPersonajes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  characterName: Tristan Blue
+  characterDescription: Chico Triste
+  infoSpritesPersonajesLeft:
+  - {fileID: 11400000, guid: 8381a6f7873c55d43abd6b00270525f0, type: 2}
+  - {fileID: 11400000, guid: 9ba924d174fd13a42950e27c4986a549, type: 2}
+  - {fileID: 11400000, guid: 4da0abec392e22f4ca528979a2f6d540, type: 2}
+  infoSpritesPersonajesRight:
+  - {fileID: 11400000, guid: 09bb865698aab824b986df4c6f82b764, type: 2}
+  - {fileID: 11400000, guid: da1abd57c572e4a46870b86d7fb08792, type: 2}
+  - {fileID: 11400000, guid: 1e6d3425927bd364488e9fde46a09e43, type: 2}

@@ -14,7 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Agan Calculos
   characterDescription: Chico Obsesionado con las mates
-  infoSpritesPersonajes:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  infoSpritesPersonajesLeft:
+  - {fileID: 11400000, guid: 89141290d80da9449b883dbdbcc191da, type: 2}
+  - {fileID: 11400000, guid: 7f62bfb41f4f930489cd3f48e3093c51, type: 2}
+  - {fileID: 11400000, guid: 542fe9bab018c9d4dafa960fbdf26dc4, type: 2}
+  infoSpritesPersonajesRight:
+  - {fileID: 11400000, guid: 9b19631faff12b94a9873ea36c1b278d, type: 2}
+  - {fileID: 11400000, guid: d5ab7672503f1da4395ca7f621bdb2fe, type: 2}
+  - {fileID: 11400000, guid: 8a65c151d4a520c41be839e670812bfb, type: 2}
