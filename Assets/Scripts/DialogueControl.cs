@@ -59,12 +59,12 @@ public class DialogueControl : MonoBehaviour
     private void GetCharacterLeft()
     {
         characterLeftSprite.sprite = dialogues[actualDialogue].ReturnSpriteLeft();
-        actualNameCharacterLeft = dialogues[actualDialogue].infoCharacterLeft.name;
+        actualNameCharacterLeft = dialogues[actualDialogue].infoCharacterLeft.characterName;
     }
     private void GetCharacterRight()
     {
         characterRightSprite.sprite = dialogues[actualDialogue].ReturnSpriteRight();
-        actualNameCharacterRight = dialogues[actualDialogue].infoCharacterRight.name;
+        actualNameCharacterRight = dialogues[actualDialogue].infoCharacterRight.characterName;
     }
     private void SetCharacterLeftinUI()
     {

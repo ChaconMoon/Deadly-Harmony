@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
   infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: He puesto que solo pueda tener 4 opciones que se pueden desbloquear
+  dialogueText: Ojala pronto podamos tener completo a nuestro plantel de personajes.
   whoIsTalking: 0
   numberImageLeft: 0
   numberImageRight: 0

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
   infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: Esto de momento es funcional
-  whoIsTalking: 0
+  dialogueText: Si. ya estamos incluidos dentro del juego
+  whoIsTalking: 1
   numberImageLeft: 0
   numberImageRight: 0

@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2a6ff2032660604e84117f05700e864, type: 3}
   m_Name: TEST_DIALOGUE_OPTIONS_1_5
   m_EditorClassIdentifier: 
-  infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
+  infoCharacterLeft: {fileID: 11400000, guid: 4ccc256188fed1b408306bbf83516104, type: 2}
   infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: Las bloqueadas no se pueden usar y aparece con signos de interrogacion
+  dialogueText: 3,141592653589793238462643383279502884197169399
   whoIsTalking: 0
   numberImageLeft: 0
   numberImageRight: 0
