@@ -9,6 +9,7 @@ public class InfoCharacter : ScriptableObject
     [SerializeField]
     public string characterName;
     public string characterDescription;
+    public Sprite characterIconInMenu;
     public InfoSpritesPersonajes[] infoSpritesPersonajesLeft = new InfoSpritesPersonajes[3];
     public InfoSpritesPersonajes[] infoSpritesPersonajesRight = new InfoSpritesPersonajes[3];
 }

@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueTitle:
   - TEST_01
-  - TEST_02
+  - TEST_EVENTS
   - TEST_03
   - TEST_04
   dialogues:
   - {fileID: 11400000, guid: 37e551d38d161c94b86af1f47ffc007b, type: 2}
-  - {fileID: 11400000, guid: 6397cbecdddc08443bb6f3417e2e883e, type: 2}
+  - {fileID: 11400000, guid: 024e31d36ac57de4d834e5b7b8986e1d, type: 2}
   - {fileID: 11400000, guid: 796c7ad65d550cf4d9dc88d749387390, type: 2}
   - {fileID: 11400000, guid: f71122834e9d44449ba0ce99119ca243, type: 2}
   activateDialogues: 01010000

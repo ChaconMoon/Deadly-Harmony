@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [CreateAssetMenu]
 public class Dialogue : ScriptableObject
@@ -13,6 +14,11 @@ public class Dialogue : ScriptableObject
     [Header("DialogueImage")]
     public int numberImageLeft;
     public int numberImageRight;
+    [Header("Events")]
+    public bool hasEvents;
+    public EventType eventType;
+    public InfoCharacter characterToAdd;
+    public InfoItem itemToAdd;
 
     public Sprite ReturnSpriteLeft()
     {
@@ -27,4 +33,8 @@ public class Dialogue : ScriptableObject
 public enum WhoIsTalking
 {
     Left,Right,
+}
+public enum EventType
+{
+    AddCharacterInMenu,AddObjectInMenu
 }

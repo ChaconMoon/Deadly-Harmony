@@ -58,8 +58,11 @@ public class DialogueControl : MonoBehaviour
     }
     private void GetCharacterLeft()
     {
-        characterLeftSprite.sprite = dialogues[actualDialogue].ReturnSpriteLeft();
-        actualNameCharacterLeft = dialogues[actualDialogue].infoCharacterLeft.characterName;
+        if (!dialogues[actualDialogue].hasEvents)
+        {
+            characterLeftSprite.sprite = dialogues[actualDialogue].ReturnSpriteLeft();
+            actualNameCharacterLeft = dialogues[actualDialogue].infoCharacterLeft.characterName;
+        }
     }
     private void GetCharacterRight()
     {
@@ -68,27 +71,45 @@ public class DialogueControl : MonoBehaviour
     }
     private void SetCharacterLeftinUI()
     {
-        if (dialogues[actualDialogue].whoIsTalking == WhoIsTalking.Left)
+        if (!dialogues[actualDialogue].hasEvents)
         {
-            characterBoxLeft.SetActive(true);
+
+
+            if (dialogues[actualDialogue].whoIsTalking == WhoIsTalking.Left)
+            {
+                characterBoxLeft.SetActive(true);
+            }
+            else
+            {
+                characterBoxLeft.SetActive(false);
+            }
+            actualNameCharacterLeftOnUI.text = actualNameCharacterLeft;
         }
         else
         {
             characterBoxLeft.SetActive(false);
         }
-        actualNameCharacterLeftOnUI.text = actualNameCharacterLeft;
     }
     private void SetCharacterRightinUI()
     {
-        if (dialogues[actualDialogue].whoIsTalking == WhoIsTalking.Right)
+        if (!dialogues[actualDialogue].hasEvents)
         {
-            characterBoxRight.SetActive(true);
+
+
+            if (dialogues[actualDialogue].whoIsTalking == WhoIsTalking.Right)
+            {
+                characterBoxRight.SetActive(true);
+            }
+            else
+            {
+                characterBoxRight.SetActive(false);
+            }
+            actualNameCharacterRightOnUI.text = actualNameCharacterRight;
         }
         else
         {
             characterBoxRight.SetActive(false);
         }
-        actualNameCharacterRightOnUI.text = actualNameCharacterRight;
     }
 
     public void SetDialogues(DialogueContent newDialogue) {
@@ -109,6 +130,13 @@ public class DialogueControl : MonoBehaviour
         SetCharacterRightinUI();
         StopCoroutine(writeDialogues);
         writeDialogues = WriteDilogue();
+        if (dialogues[actualDialogue].hasEvents)
+        {
+            if (dialogues[actualDialogue].eventType == EventType.AddCharacterInMenu)
+            {
+                CharacterInMenuControl.instance.AddCharacterInIcon(dialogues[actualDialogue].characterToAdd);
+            }
+        }
         StartCoroutine(writeDialogues);
     }
     public void GoToNextDialogue()

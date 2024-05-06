@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterName: Carlos
   characterDescription: DESC_DET2
+  characterIconInMenu: {fileID: 21300000, guid: d2729470bce38f944a4ed3206ea7374a, type: 3}
   infoSpritesPersonajesLeft:
   - {fileID: 11400000, guid: 99627fa9554615b4aa69371f5dd51619, type: 2}
   - {fileID: 11400000, guid: bd27707e196fd7b428c1f2659bef0173, type: 2}
