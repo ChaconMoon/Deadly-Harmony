@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
@@ -121,6 +122,17 @@ public class DialogueControl : MonoBehaviour
     }
     public void ShowActualDialogue()
     {
+        if (dialogues[actualDialogue].hasEvents)
+        {
+            if (dialogues[actualDialogue].eventType == EventType.AddCharacterInMenu)
+            {
+                if (CharacterInMenuControl.instance.IsCharacterAdded(dialogues[actualDialogue].characterToAdd))
+                {
+                    GoToNextDialogue();
+                    return;
+                }
+            }
+        }
         dialogueUI.SetActive(true);
         EarseDialogue();
         GetCharacterLeft();
@@ -130,6 +142,7 @@ public class DialogueControl : MonoBehaviour
         SetCharacterRightinUI();
         StopCoroutine(writeDialogues);
         writeDialogues = WriteDilogue();
+        StartCoroutine(writeDialogues);
         if (dialogues[actualDialogue].hasEvents)
         {
             if (dialogues[actualDialogue].eventType == EventType.AddCharacterInMenu)
@@ -137,7 +150,6 @@ public class DialogueControl : MonoBehaviour
                 CharacterInMenuControl.instance.AddCharacterInIcon(dialogues[actualDialogue].characterToAdd);
             }
         }
-        StartCoroutine(writeDialogues);
     }
     public void GoToNextDialogue()
     {

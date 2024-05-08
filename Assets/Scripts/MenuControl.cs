@@ -17,14 +17,17 @@ public class MenuControl : MonoBehaviour
     public static MenuControl instance;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         instance = this;
+        
+    }
+    private void Start()
+    {
         menuPersonajes.SetActive(false);
         contenidoMenu.SetActive(false);
         menuPruebas.SetActive(false);
     }
-
     // Update is called once per frame
     void Update()
     {

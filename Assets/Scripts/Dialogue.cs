@@ -36,5 +36,5 @@ public enum WhoIsTalking
 }
 public enum EventType
 {
-    AddCharacterInMenu,AddObjectInMenu
+    AddCharacterInMenu,AddObjectInMenu, UnlockDialogue
 }

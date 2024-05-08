@@ -1,19 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Localization.Plugins.XLIFF.V12;
 using UnityEngine;
 
 [CreateAssetMenu]
 public class InfoItem : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("InternalUse")]
+    public string itemKey;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("ItemInfo")]
+    public string itemName;
+    public string itemDescription;
+    public Sprite itemImage;
+
 }

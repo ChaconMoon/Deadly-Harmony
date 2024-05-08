@@ -25,14 +25,21 @@ public class CharacterInMenuControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    
+
     public void AddCharacterInIcon(InfoCharacter characterToAdd)
     {
         bool characterWasAdded = false;
         for (int i = 0; i < charactersInMenu.Length; i++)
         {
+            if (charactersInMenu[i].characterInIcon != null)
+            {
+                if (characterToAdd.characterName == charactersInMenu[i].characterInIcon.characterName)
+                {
+                    characterWasAdded = true;
+                }
+            }
             if (!charactersInMenu[i].inUse & !characterWasAdded)
             {
                 charactersInMenu[i].inUse = true;
@@ -49,5 +56,21 @@ public class CharacterInMenuControl : MonoBehaviour
     public void HideCharacterIcons()
     {
         CharacterIcons.SetActive(false);
+    }
+
+    public bool IsCharacterAdded(InfoCharacter characterToAdd)
+    {
+
+        for (int i = 0; i < charactersInMenu.Length; i++)
+        {
+            if (charactersInMenu[i].characterInIcon != null)
+            {
+                if (characterToAdd.characterName == charactersInMenu[i].characterInIcon.characterName)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

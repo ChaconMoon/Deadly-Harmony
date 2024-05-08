@@ -27,7 +27,6 @@ public class CharacterInMenu : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rawImage = GetComponent<RawImage>();
         if (characterInIcon == null)
         {
             rawImage.texture = CharacterInMenuControl.instance.defaultIcon.texture;
@@ -50,6 +49,7 @@ public class CharacterInMenu : MonoBehaviour
     public void SetCharacter(InfoCharacter newCharacter)
     {
         characterInIcon = newCharacter;
+        Debug.Log(characterInIcon.characterName);
         UpdateIcon();
     }
     public void ShowCharacterDescription()
