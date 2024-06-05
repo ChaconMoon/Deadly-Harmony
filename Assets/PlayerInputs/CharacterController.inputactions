@@ -31,6 +31,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "CerrarJuego",
+                    "type": "Button",
+                    "id": "81de8f26-23dd-4e95-8e2d-2217f9ff30c2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -240,6 +249,17 @@
                     "processors": "",
                     "groups": "Mando",
                     "action": "AbrirManu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "095ea90c-ab04-4beb-a3c4-67b4b89be15c",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CerrarJuego",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea8f5d2fb7969441a0abd429185e4f4, type: 3}
+  m_Name: ALEX_FERNANDO_ARGUMENT
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 2a853a277c9d22d4ea528d4b5d3dab68, type: 2}
+  - {fileID: 11400000, guid: 817c23a2ec95ad443a1f918e4a433a6c, type: 2}
+  - {fileID: 11400000, guid: 7133a912c65c0954b96de73469faa602, type: 2}
+  - {fileID: 11400000, guid: ef0e5117fd67a454992e0bcb6f2e7a5d, type: 2}
+  - {fileID: 11400000, guid: 9622a391dfd82e045bbf796d9a36025f, type: 2}
+  - {fileID: 11400000, guid: cc85606371f10944e907a9df42c7300e, type: 2}
+  - {fileID: 11400000, guid: 451d80cc04e8740409e89969b717ce95, type: 2}
+  - {fileID: 11400000, guid: aad72ee2380b582429ad2c20a7ba6a3e, type: 2}
+  - {fileID: 11400000, guid: f5697b9421f47b843b71ea0648f63fd0, type: 2}
+  - {fileID: 11400000, guid: 066df10f3c24b1846922332e8ff8057a, type: 2}
+  - {fileID: 11400000, guid: e35c9e6c6029e6d4b88f12d2cbda698d, type: 2}
+  - {fileID: 11400000, guid: a50142bfa3f1c1c4a874f227b560532b, type: 2}
+  - {fileID: 11400000, guid: 166a8272483d7de4ebef3df677639999, type: 2}
+  - {fileID: 11400000, guid: 116d7b2710c5bf546927f73970e3dc96, type: 2}
+  - {fileID: 11400000, guid: 001600030d3e7444188a5ef0fb948d89, type: 2}
+  - {fileID: 11400000, guid: 3cb54fce53c2e584cb3004545a7f598b, type: 2}
+  - {fileID: 11400000, guid: 157ab351831e88e46ae8a6ea2849a7a6, type: 2}
+  - {fileID: 11400000, guid: 4cec107009a2ccb4191d445cc84b9c3d, type: 2}
+  - {fileID: 11400000, guid: 1a9aa73f4405bff47a33874f1d94698f, type: 2}
+  - {fileID: 11400000, guid: 58c99b4c9411ec348a5e9c4d10787efa, type: 2}

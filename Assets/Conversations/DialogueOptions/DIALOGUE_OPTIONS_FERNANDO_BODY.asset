@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e359a7c376a6a4f9d618a589cdea08, type: 3}
+  m_Name: DIALOGUE_OPTIONS_FERNANDO_BODY
+  m_EditorClassIdentifier: 
+  dialogueTitle:
+  - "\xBFPELUQUIN?"
+  - Examinar el cuello
+  - Examinar la sangre
+  - FERNANDO_04
+  dialogues:
+  - {fileID: 11400000, guid: bfac26c79fb63194f9c15f5b09b2380a, type: 2}
+  - {fileID: 11400000, guid: 0cbf52d272b18a249b8e558f3e0e0ee2, type: 2}
+  - {fileID: 11400000, guid: 755bdd593e7486649ac9aa266cbaef42, type: 2}
+  - {fileID: 11400000, guid: 755bdd593e7486649ac9aa266cbaef42, type: 2}
+  activateDialogues: 01010100

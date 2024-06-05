@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea8f5d2fb7969441a0abd429185e4f4, type: 3}
+  m_Name: CARLOS_BEFOREDISASTER
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 2407336fb076f9043a21f89779d2eec8, type: 2}
+  - {fileID: 11400000, guid: aef2b186661e9fd46b5ccb71c4f183be, type: 2}
+  - {fileID: 11400000, guid: 876a5db30c5a4104d9953813f0e8a596, type: 2}
+  - {fileID: 11400000, guid: a436038e31ef589409827c654bcab1df, type: 2}
+  - {fileID: 11400000, guid: 3acc1dd62aca442469e65c0473945fd2, type: 2}
+  - {fileID: 11400000, guid: 4c26c28aa3245a54cb09deb3fe8c06ed, type: 2}
+  - {fileID: 11400000, guid: 9aa16f993b3fee04a8200188aca3cb3a, type: 2}
+  - {fileID: 11400000, guid: d5e9af83982aa3745994d4aa5a02b68c, type: 2}
+  - {fileID: 11400000, guid: 75556c2a1222c8447a8f2110e43f50b1, type: 2}
+  - {fileID: 11400000, guid: c6e5b45c791cbbe45b68e748426e71e0, type: 2}
+  - {fileID: 11400000, guid: 7be30637e06ef4448930f311b5178616, type: 2}
+  - {fileID: 11400000, guid: 39c0993de3f8cc546a11cbc9c1d71620, type: 2}
+  - {fileID: 11400000, guid: ea479a4aac567c740a99946a5266fd49, type: 2}
+  - {fileID: 11400000, guid: fabf1ea6c1e07e745b7de859d134aa54, type: 2}
+  - {fileID: 11400000, guid: 109e1a395bfe2e343b90a5de72e29fd4, type: 2}
+  - {fileID: 11400000, guid: a4f4a6d02fccc5d409c089ba3824eeea, type: 2}
+  - {fileID: 11400000, guid: f97ba7abdd60e5f46ba6a4746d627701, type: 2}
+  - {fileID: 11400000, guid: 76087af7b26573e479de5c83b53bed53, type: 2}
+  - {fileID: 11400000, guid: bbcaaea45a989044d99610953ca31e59, type: 2}

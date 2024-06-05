@@ -12,3 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f9984fadb0cc9b47980c97551695ddf, type: 3}
   m_Name: Peluquin
   m_EditorClassIdentifier: 
+  itemKey: PELUQUIN_ITEM
+  itemName: Peluquin de Fernando
+  itemDescription: No se porque hemos anotado esto aqui.
+  itemImage: {fileID: 21300000, guid: 34a86972eebe5304e84b180b462d749c, type: 3}

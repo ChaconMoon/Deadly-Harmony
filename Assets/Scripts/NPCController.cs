@@ -22,7 +22,7 @@ public class NPCController : MonoBehaviour
         {
             Debug.Log("Dentro Interacción");
             CharacterMove.characterOptions.SetNPCDialogue(NPCDialogue);
-            UIControl.UIOptions.ChangeInteractionIconToActivate();
+            UIControl.UIOptions.ChangeInteractionIconToTalk();
         }
     }
     private void OnTriggerExit2D(Collider2D collision)

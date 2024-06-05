@@ -6,6 +6,8 @@ TagManager:
   tags:
   - InteractionPoint
   - CharacterMenu
+  - Interactuable
+  - Teleporter
   layers:
   - Default
   - TransparentFX
@@ -49,9 +51,18 @@ TagManager:
   - name: Pared
     uniqueID: 12918903
     locked: 0
-  - name: Personajes
-    uniqueID: 3507973345
+  - name: Muebles
+    uniqueID: 2378642757
     locked: 0
   - name: Dialogos
     uniqueID: 1525928627
+    locked: 0
+  - name: Puertas
+    uniqueID: 308305897
+    locked: 0
+  - name: Accesorios
+    uniqueID: 2620266737
+    locked: 0
+  - name: Personajes
+    uniqueID: 3507973345
     locked: 0

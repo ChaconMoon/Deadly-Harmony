@@ -1,0 +1,706 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameDialogues_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b70a33992b56a104fb3deeb811da47f5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: Good evening, thank you all for coming to this charity concert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: And many thanks to the anonymous donor who has donated fifty thousand
+      euros to the Patitas peluditas foundation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: Now those kittens can be spoiled to death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: You really made me come to a rock concert just for a kitten association...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: It's okay, it's good rock for once. Although giving it in a nightclub
+      has something to do with it...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: 'Hey Carlos, that rocker on stage isn''t bad, right? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: Didn't this guy get caught driving under the influence a year ago?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Now that you say it, his face sounds a little familiar to me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: Isn't this the news guy who defrauded the Treasury of 200 thousand
+      euros?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: You say it as if you are surprised that an artist defrauds the Treasury.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: I'm even more surprised that now I'm putting on a charity event.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: It will be to wash his image.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: But only 6 people have come.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: 'Normal, let''s see who is going to swallow this after his geta
+      appears on Antena 3. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: It could be worse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: He could have appeared on Temptation Island.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: Since we left work early.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: And I'm sick and tired of the fact that if you fill out this document
+      for the trial, classify the clues there for me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: And the posters were posted on the windows of the office, well I
+      said why not?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: We had a mojito, good music and went to sleep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: Have you seen Fernancuchi? I already told you that my stoner ex
+      would be here giving the concert today.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: More like giving the note you mean. In any case, thank you for telling
+      me, I assure you that the entire weight of the public treasury will fall on
+      him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: Anything for you Fernancuchi dear, but get this guy out of my sight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: Oh yes, speaking of something else, I saw this morning at Cartier
+      a beautiful Opal ring with Swarovski inlays and I want it...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: ' Okay, I''ll give you whatever you want. But stay away, I don''t
+      want them to see us together in public. *Drink from the cup*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: What are we doing here, Agan? I don't understand why you dragged
+      me to come to this concert...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: 'It is a unique opportunity to analyze the acoustics of the place.
+      It is perfect for the new thesis I am developing. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: Have you considered how sound waves disperse in such a wide environment
+      and how that affects our perception of sound?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: 'Well, not really. I''m more worried about how the crowd is going
+      to overwhelm me and make me feel even worse. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: I'm just your roommate, but dragging me into your crazy experiments
+      is none of my business.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: 'I understand you''re worried, Tristan. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: 'But look, we can calculate the density of people per square meter
+      and estimate how much living space we have. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: What density or eight quarters? We are three idiots here! Can you
+      let me go to the apartment at once?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: "Additionally, we could measure the level of ambient noise and see
+      how it relates to your emotional experience\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: I'm not sure my emotions follow such a clear mathematical formula...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: I notice you even more anxious and depressed than usual, wonderful!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: 'Well, the human mind is complex, but it still follows predictable
+      patterns in many ways. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: We could try to model your mood and see if we can find any correlation
+      with environmental variables.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: Agan, you're a strange guy, but I appreciate you trying to help
+      me get out of my room for once.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: 'Brilliant! Let''s make this concert an unforgettable scientific
+      experience, Tristan! '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: And who knows, maybe we'll discover something that can help you
+      feel better.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: Be quiet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: The poisoned drink has been added to the inventory.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: Looks like we have a lead on the killer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: '*Alex notices that Fernando is in the audience and starts to get
+      anxious*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: Oh my mother. But what is this geezer doing here again?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Caster comes down, we have to talk about your pending bills, this
+      time you're not going to get away.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: Come on man, does it have to be here in front of my audience? Even
+      if it's just let's go to the private room for a moment.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: I want to put on a show but not exactly this type, do you understand
+      me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50
+    m_Localized: As you prefer, but you are not going to continue shirking as usual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51
+    m_Localized: Yes, yes, Jesus...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52
+    m_Localized: '*Alex and Fernando go to the private room on the north side to
+      talk alone*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53
+    m_Localized: Look Alex, this is the last time I come to warn you and I think
+      I have been too permissive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54
+    m_Localized: But if you don't pay the debt you owe in a week, I'm going to have
+      to take matters into my own hands.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55
+    m_Localized: What the hell are you referring to?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56
+    m_Localized: Either you pay, or I tell your dear little princess that the charity
+      event is just a lie and that the money is for your personal use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57
+    m_Localized: That's a lie and you know it! I would never lie to Tiffany. The
+      money is only for your organization.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58
+    m_Localized: But she doesn't know that. Either you pay or I tell him that it's
+      all a ruse on your part to keep half of the money you get from the concert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59
+    m_Localized: And then I will tell her that I have come here to stop you. *Flicks
+      his toupee dramatically*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60
+    m_Localized: You will...!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61
+    m_Localized: '*Many screams and voices can be heard from inside the VIP room*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62
+    m_Localized: But what the hell?!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63
+    m_Localized: '*Alex appears in the room panting and with a face of pure terror*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64
+    m_Localized: Hey, we have a problem! The old man has had a potato attack or what
+      do I know!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65
+    m_Localized: And those screams? Carlos, I think something has happened to Alex.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66
+    m_Localized: We should get closer to see what's happening.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67
+    m_Localized: Alex, what's wrong, is everything okay?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68
+    m_Localized: All good?! I'm telling you, the old man has had a hard time!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69
+    m_Localized: Breathe and tell us what happened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70
+    m_Localized: You see, I have some little problems with Mr. Fernando, nothing
+      serious.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71
+    m_Localized: We were talking, I accidentally got hot and went to grab him by
+      the neck to make him shut up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72
+    m_Localized: But I swear I didn't have time to squeeze my hands too hard to kill
+      him!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73
+    m_Localized: 'When I realized it, the old man already had blood in his mouth
+      and was not breathing. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74
+    m_Localized: '*I look at Carlos out of the corner of my eye*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75
+    m_Localized: 'Time to investigate? '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76
+    m_Localized: Yup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77
+    m_Localized: We take care of it Alex.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78
+    m_Localized: We are private detectives. *Carlos shows the badge*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79
+    m_Localized: We were on break and came after the concert to relax a little, but
+      it seems like it's time to work.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80
+    m_Localized: Alex's profile has been added to the profile menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81
+    m_Localized: By the way.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82
+    m_Localized: You, yes you, the one who is passing my dialogues without rhyme
+      or reason.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83
+    m_Localized: When we investigate the scene and question witnesses...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84
+    m_Localized: You can view the profiles and collected tracks by pressing [TAB].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85
+    m_Localized: Well, let's get to it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86
+    m_Localized: Wait... this is a toupee?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87
+    m_Localized: Carlos, are you kidding me? Pfffhaha... *wipes a tear*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88
+    m_Localized: You have obtained Fernando's toupee, YUCK!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89
+    m_Localized: Have you noticed this Carlos?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90
+    m_Localized: What's going on?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91
+    m_Localized: Look closely, doesn't your neck look strange to you?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92
+    m_Localized: Now that you mention it... Fernando's body has no marks on his neck.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93
+    m_Localized: What Alex Caster said seems to be true. He has no signs of strong
+      strangulation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94
+    m_Localized: Nor does he have self-defense scratches with his nails trying to
+      free himself. How curious...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95
+    m_Localized: '"Marks on Neck" has been added to the notebook.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96
+    m_Localized: What a grotesque scene, poor man.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97
+    m_Localized: His whole mouth is covered in blood, whatever it is, it looks quite
+      painful.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98
+    m_Localized: But it doesn't seem to show signs of axiphysia, I doubt that the
+      blood has anything to do with the lungs.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99
+    m_Localized: There are also no wounds on the lips or inside the mouth, it is
+      most likely that he coughed and that blood came from the stomach.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100
+    m_Localized: If you notice, there are droplets of blood on his sleeve, so the
+      idea that he coughed up blood seems the most plausible to me.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101
+    m_Localized: Added "Blood Stains" to the notebook
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102
+    m_Localized: Fernando's profile has been added to the profile menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103
+    m_Localized: It is clear that the person who did it is someone present here,
+      since that guy was alive before entering this room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104
+    m_Localized: Do you think it could have been Caster?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105
+    m_Localized: Unfortunately, the two of them entered this room and only one of
+      them has come out alive...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106
+    m_Localized: I think we should question the rest of the people in the other room.
+      Some of them have to know the victim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107
+    m_Localized: Removing the victim there are only 5 people left, with Alex there
+      are 6.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108
+    m_Localized: Earlier I saw the victim talking to a girl, we should start with
+      her. But first let's talk to Caster.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109
+    m_Localized: What have you found out?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110
+    m_Localized: Alex...He's dead.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111
+    m_Localized: That? As? If I didn't kill him.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112
+    m_Localized: We believe the cause of death was not strangulation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113
+    m_Localized: Are you sure you didn't do anything to him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114
+    m_Localized: Of course not. I didn't like him, but I wouldn't kill him either.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115
+    m_Localized: The only thing we know is that you two went in and only one came
+      out alive.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116
+    m_Localized: I could tell you exactly what happened.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117
+    m_Localized: Clear...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118
+    m_Localized: The victim is a tax agent who wanted to blackmail me by telling
+      my ex that I was going to keep the money from the concert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119
+    m_Localized: My ex is the owner of the organization to which I was going to donate
+      the money and I wanted her to see that I am a good person.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120
+    m_Localized: She has come as an audience, you can talk to her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121
+    m_Localized: The only woman here is the one who was with the victim.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122
+    m_Localized: Very suspicious indeed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123
+    m_Localized: Let's talk to her.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124
+    m_Localized: Miss...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125
+    m_Localized: ...*Ignores him*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126
+    m_Localized: Miss...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127
+    m_Localized: ... *continues ignoring him*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128
+    m_Localized: MISSYYYY.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129
+    m_Localized: But what do you want...?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130
+    m_Localized: We wanted to ask her about the man she was with.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131
+    m_Localized: Ah, yes, my dear Fernancuchi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132
+    m_Localized: Fernan....cuchi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133
+    m_Localized: Could you tell us more about him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134
+    m_Localized: Why should I talk about him?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135
+    m_Localized: Miss...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136
+    m_Localized: Tiffany Diamond...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137
+    m_Localized: Tiffany.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138
+    m_Localized: That man I was with... He's dead...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139
+    m_Localized: Fernan....cuchi has died...??
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140
+    m_Localized: Yeah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141
+    m_Localized: I knew it... My idiot ex would end up killing him!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142
+    m_Localized: '*Thinking* I mean it''s true that she is Caster''s ex.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143
+    m_Localized: Could you tell us about your relationship with Fernanchuchi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144
+    m_Localized: Okay, but before we talk... Is your partner, or whatever that is,
+      a man, a woman?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145
+    m_Localized: I say this because for a woman, clothes are more tacky.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146
+    m_Localized: Yeah.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147
+    m_Localized: How so?...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148
+    m_Localized: Yep.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149
+    m_Localized: So are you an uncle or aunt? Would you mind answering me?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150
+    m_Localized: I think he answered exactly what I wanted to say.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151
+    m_Localized: Well, tell us about the man you were with please. My clothes have
+      nothing to do with this.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152
+    m_Localized: He was a tax agent to whom I gave information about my ex in exchange
+      for favors... My Fernanlindo still owes me an Opal ring.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153
+    m_Localized: Well... It's going to be complicated now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154
+    m_Localized: I think we already have what we need...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155
+    m_Localized: Tiffany's information has been added to the profile menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Localized: Fernando's information has been added to the profile menu
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

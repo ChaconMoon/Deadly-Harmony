@@ -8,7 +8,10 @@ public class UIControl : MonoBehaviour
     [Header("InteractionIcon")]
     public Image interactionIconObject;
     public Sprite interactionIconCross;
-    public Sprite interactionIconActivate;
+    public Sprite interactionIconTalk;
+    public Sprite interactionIconInteract;
+    public Sprite interactionIconPick;
+    public Sprite interactionIconDoor;
     [Header("Singleton")]
     public static UIControl UIOptions;
     // Start is called before the first frame update
@@ -21,8 +24,20 @@ public class UIControl : MonoBehaviour
     {
         interactionIconObject.sprite = interactionIconCross;
     }
-    public void ChangeInteractionIconToActivate()
+    public void ChangeInteractionIconToTalk()
     {
-        interactionIconObject.sprite = interactionIconActivate;
+        interactionIconObject.sprite = interactionIconTalk;
+    }
+    public void ChangeInteractionActionToInteract()
+    {
+        interactionIconObject.sprite = interactionIconInteract;
+    }
+    public void ChangeInteractionActionToPick()
+    {
+        interactionIconObject.sprite = interactionIconPick;
+    }
+    public void ChangeInteractionActionToDoor()
+    {
+        interactionIconObject.sprite = interactionIconDoor;
     }
 }

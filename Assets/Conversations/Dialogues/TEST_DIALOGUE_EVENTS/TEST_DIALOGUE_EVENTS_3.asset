@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
   infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: "La ficha de Selene se ha a\xF1adido a las fichas de personaje"
-  whoIsTalking: 0
+  dialogueText: "Se ha a\xF1adido la informacion del contenido de la bebida a la
+    libreta de apuntes"
+  whoIsTalking: 1
   numberImageLeft: 0
   numberImageRight: 0
   hasEvents: 1
-  eventType: 0
-  characterToAdd: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  itemToAdd: {fileID: 0}
+  eventType: 1
+  characterToAdd: {fileID: 0}
+  itemToAdd: {fileID: 11400000, guid: 557ad9a5b237eb6498cce3f73e5b602a, type: 2}
+  nextDialogueToShow: {fileID: 0}

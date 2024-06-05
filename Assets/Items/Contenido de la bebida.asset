@@ -12,3 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f9984fadb0cc9b47980c97551695ddf, type: 3}
   m_Name: Contenido de la bebida
   m_EditorClassIdentifier: 
+  itemKey: SODA_ITEM_1
+  itemName: Contenido de la bebida de Fernando
+  itemDescription: El vaso contiene lo que parece ser soda mezclado con alguna sustancia
+    toxica, aun desconocemos cual.
+  itemImage: {fileID: 21300000, guid: 558d4421abd2f2146a3e435c594342ae, type: 3}

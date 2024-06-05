@@ -12,13 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
   m_Name: AlexCaster
   m_EditorClassIdentifier: 
-  characterName: Alex Caster
-  characterDescription: Un guitarrista venido a menos
+  characterNameInDialogues: Alex
+  characterNameInMenu: Alex Caster
+  characterDescription: Acusado del asesinato de Fernando, es un guitarrista que
+    ha organizado un concierto benefico para reconquistar a su ex.
+  characterIconInMenu: {fileID: 21300000, guid: 172176736ddc0b04da08929287b27f2e, type: 3}
   infoSpritesPersonajesLeft:
-  - {fileID: 11400000, guid: 89ee3f9e7b8294741a3feeae89ce32ee, type: 2}
-  - {fileID: 11400000, guid: 63ad251523a15b9479044269b061c1d1, type: 2}
-  - {fileID: 11400000, guid: 5f2672c5361d34b409b23d8429becc0d, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}
   infoSpritesPersonajesRight:
-  - {fileID: 11400000, guid: 5e237c6717ca35b468ba668cea89a369, type: 2}
-  - {fileID: 11400000, guid: f29b27e705376f449baa195d0528ba98, type: 2}
-  - {fileID: 11400000, guid: 241d59410f0f3834a92061c4f0c32273, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}
+  - {fileID: 11400000, guid: 7941447bc23292e40860cb7aafcaccb9, type: 2}

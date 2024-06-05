@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e359a7c376a6a4f9d618a589cdea08, type: 3}
+  m_Name: EASTER_EGG_DIALOGUE_OPTIONS
+  m_EditorClassIdentifier: 
+  dialogueTitle:
+  - EASTER_EGG_1
+  - EASTER_EGG_2
+  - EASTER_EGG_3
+  - EASTER_EGG_4
+  dialogues:
+  - {fileID: 11400000, guid: d8e87b9381fefd4419365719e1030d33, type: 2}
+  - {fileID: 11400000, guid: d8e87b9381fefd4419365719e1030d33, type: 2}
+  - {fileID: 11400000, guid: d8e87b9381fefd4419365719e1030d33, type: 2}
+  - {fileID: 11400000, guid: d8e87b9381fefd4419365719e1030d33, type: 2}
+  activateDialogues: 01000000

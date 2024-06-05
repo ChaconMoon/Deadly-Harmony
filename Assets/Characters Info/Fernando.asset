@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
   m_Name: Fernando
   m_EditorClassIdentifier: 
-  characterName: Fernando
-  characterDescription: DESC_FERN
+  characterNameInDialogues: Fernando
+  characterNameInMenu: Fernanchuchi
+  characterDescription: Un ispector de hacienda de aspecto repelente que adora a
+    Tiffany sobre todas las cosas, trato de chantajear a Alex
+  characterIconInMenu: {fileID: 21300000, guid: 02cb21365b5b5d340ba7d394b93a2a91, type: 3}
   infoSpritesPersonajesLeft:
   - {fileID: 11400000, guid: 05eb0facbb0305c4b9035666d9487dda, type: 2}
   - {fileID: 11400000, guid: 7376ad094f245f24dbe8af534f01d536, type: 2}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20e359a7c376a6a4f9d618a589cdea08, type: 3}
+  m_Name: DIALOGUE_OPTIONS_AGAN
+  m_EditorClassIdentifier: 
+  dialogueTitle:
+  - TRISTAN_01
+  - TRISTAN_02
+  - TRISTAN_03
+  - TRISTAN_04
+  dialogues: []
+  activateDialogues: 01010000

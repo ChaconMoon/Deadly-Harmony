@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f9984fadb0cc9b47980c97551695ddf, type: 3}
+  m_Name: Marcas del cuello
+  m_EditorClassIdentifier: 
+  itemKey: BODY_MARKS
+  itemName: Marcas del cuello
+  itemDescription: No se han encontrado marcas de autodefensa en el cuello de Fernando
+  itemImage: {fileID: 21300000, guid: 830daf22ee9f2e049b71cf54bf14560f, type: 3}

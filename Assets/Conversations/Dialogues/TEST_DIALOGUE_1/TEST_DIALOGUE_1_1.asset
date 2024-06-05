@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: TEST_DIALOGUE_1_1
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
-  infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: Hola Selene
+  infoCharacterRight: {fileID: 11400000, guid: a3d57f1bf8bbfe642a89ca252ecf8f87, type: 2}
+  dialogueText: Buena esta es la ultima actualizacion mi proyecto de final de final
+    de curso que lo entrego la semana que viene.
   whoIsTalking: 0
   numberImageLeft: 0
   numberImageRight: 0
+  hasEvents: 0
+  eventType: 0
+  characterToAdd: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  nextDialogueToShow: {fileID: 0}
+  newCameraPosition: 
+  achivementToGet: {fileID: 0}
+  dialogueAudio: {fileID: 0}

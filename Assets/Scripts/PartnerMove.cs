@@ -27,7 +27,7 @@ public class PartnerMove : MonoBehaviour
     }
     private void OnGUI()
     {
-        GUILayout.TextArea((mainCharacterPosition+new Vector2(transform.position.x,transform.position.y)).ToString());
+        //GUILayout.TextArea((mainCharacterPosition+new Vector2(transform.position.x,transform.position.y)).ToString());
     }
     public void FollowCharacter(Vector2 characterPosition, float moveSpeed)
     {

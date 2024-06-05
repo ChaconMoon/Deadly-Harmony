@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea8f5d2fb7969441a0abd429185e4f4, type: 3}
+  m_Name: DIALOGUE_GETPOISON_DRINK
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 44357a42af5a9864c81846655fbd78c7, type: 2}
+  - {fileID: 11400000, guid: bce9b4b47a65098479987d16bcfcbbeb, type: 2}

@@ -35,7 +35,7 @@ public class CharacterInMenuControl : MonoBehaviour
         {
             if (charactersInMenu[i].characterInIcon != null)
             {
-                if (characterToAdd.characterName == charactersInMenu[i].characterInIcon.characterName)
+                if (characterToAdd.characterNameInDialogues == charactersInMenu[i].characterInIcon.characterNameInDialogues)
                 {
                     characterWasAdded = true;
                 }
@@ -65,7 +65,7 @@ public class CharacterInMenuControl : MonoBehaviour
         {
             if (charactersInMenu[i].characterInIcon != null)
             {
-                if (characterToAdd.characterName == charactersInMenu[i].characterInIcon.characterName)
+                if (characterToAdd.characterNameInDialogues == charactersInMenu[i].characterInIcon.characterNameInDialogues)
                 {
                     return true;
                 }

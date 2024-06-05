@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 541f81168b4712848b33e129ceddc75d, type: 3}
   m_Name: Selene
   m_EditorClassIdentifier: 
-  characterName: Selene
+  characterNameInDialogues: Selene
+  characterNameInMenu: Selene
   characterDescription: Prueba de descripcion de Selene
   characterIconInMenu: {fileID: 21300000, guid: 5da51adf8acf5954498f4106ee245083, type: 3}
   infoSpritesPersonajesLeft:

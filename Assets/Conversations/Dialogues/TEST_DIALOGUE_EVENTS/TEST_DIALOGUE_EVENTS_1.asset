@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: TEST_DIALOGUE_EVENTS_1
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
-  infoCharacterRight: {fileID: 11400000, guid: 803105022720d2f41b0d5d5dc94c0784, type: 2}
-  dialogueText: Este es un dialogo para probar si los dialogos pueden activar eventos
-  whoIsTalking: 0
+  infoCharacterRight: {fileID: 11400000, guid: f9d6d03f8ac78ae44bd5d18dd9c0af5f, type: 2}
+  dialogueText: "Prueba para a\xF1adir la info de Fernando a la libreta de apuntes"
+  whoIsTalking: 1
   numberImageLeft: 0
   numberImageRight: 0
   hasEvents: 0
-  events:
-    m_PersistentCalls:
-      m_Calls: []
+  eventType: 0
+  characterToAdd: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  nextDialogueToShow: {fileID: 0}

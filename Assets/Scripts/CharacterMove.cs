@@ -26,12 +26,16 @@ public class CharacterMove : MonoBehaviour
     [Header("Interctuar")]
     private bool isNPCNear;
     public DialogueOptions dialogueNPCNear;
+    public bool isInteractive;
+
     [Header("Singleton")]
     public static CharacterMove characterOptions;
 
     // Start is called before the first frame update
     void Start()
     {
+        // Inicializar todo
+
         characterOptions = this;
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
@@ -42,6 +46,7 @@ public class CharacterMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Determina si el personaje esta hablando, y si esta hablando no se puede mover
         if (!isTalking)
         {
             //Debug.Log(moves.ToString());
@@ -58,12 +63,15 @@ public class CharacterMove : MonoBehaviour
         }
 
     }
+
+    //Recoge los Inputs
     public void OnMove(InputAction.CallbackContext context)
     {
         moves = context.ReadValue<Vector2>();
     }
     public void OnInteract(InputAction.CallbackContext context)
     {
+        isInteractive = context.ReadValueAsButton();
         if (canTalk & isTalking)
         {
             DialogueControl.dialogueControl.GoToNextDialogue();
@@ -75,11 +83,20 @@ public class CharacterMove : MonoBehaviour
             DialogueOptionsInUI.instance.InstanciateDialogue(dialogueNPCNear);
             StartCoroutine(CoolDownTalk());
         }
+        //if (isInteractuableNear)
+        //{
+        //    
+        //}
+    }
+    public  void OnCloseGame(InputAction.CallbackContext context) {
+        Application.Quit();
+    
     }
     private void OnGUI()
     {
-        //GUILayout.TextArea(moves.ToString());
+        //GUILayout.TextArea(characterOptions.isInteractive.ToString());
     }
+
     public void Moverse()
     {
         isMoving = true;
@@ -95,6 +112,7 @@ public class CharacterMove : MonoBehaviour
 
         
     }
+
     private void setAnimation()
     {
         velocityX = moves.x;
@@ -104,6 +122,7 @@ public class CharacterMove : MonoBehaviour
         animator.SetFloat("VelocityY", velocityY);
 
     }
+    //Se usan cuando se requiere usar un atributo del personaje de forma externa
     public Vector2 GetPosition()
     {
         return transform.position;
@@ -116,12 +135,16 @@ public class CharacterMove : MonoBehaviour
     {
         return moves;
     }
+
+    //Cooldown que determina cuanto tiempo debe pasar para poder volver a pulsar espacio para pasar al siguiente dialogo
     private IEnumerator CoolDownTalk()
     {
         canTalk = false;
         yield return new WaitForSeconds(1);
         canTalk = true;
     }
+
+    //Se usa en los dialogos para determinar en el personaje cuando empieza y deja de hablar
     public void StopTalking()
     {
         isTalking = false;
@@ -130,6 +153,7 @@ public class CharacterMove : MonoBehaviour
     {
         isTalking=true;
     }
+
     public void SetNPCDialogue(DialogueOptions dialogue)
     {
         dialogueNPCNear = dialogue;
@@ -139,4 +163,10 @@ public class CharacterMove : MonoBehaviour
     {
         isNPCNear = false;
     }
+
+    public void ExternalStarterTalking()
+    {
+        isTalking = true;
+    }
+
 }

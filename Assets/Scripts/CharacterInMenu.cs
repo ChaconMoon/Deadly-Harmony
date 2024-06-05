@@ -14,13 +14,14 @@ public class CharacterInMenu : MonoBehaviour
 
     [Header("Variables")]
     public bool inUse;
+
     [Header("ChacterInfoMenu")]
-    public GameObject InfoCharacterInMenus;
-    public GameObject CharacterImage;
-    private RawImage CharacterImageSprite;
-    public GameObject CharacterName;
+    public GameObject infoCharacterInMenus;
+    public GameObject characterImage;
+    private RawImage characterImageSprite;
+    public GameObject characterName;
     private TextMeshProUGUI characterNameInText;
-    public GameObject CharacterDescriprion;
+    public GameObject characterDescriprion;
     private TextMeshProUGUI characterDescriptionText;
 
 
@@ -31,16 +32,10 @@ public class CharacterInMenu : MonoBehaviour
         {
             rawImage.texture = CharacterInMenuControl.instance.defaultIcon.texture;
         }
-        CharacterImageSprite = CharacterImage.GetComponent<RawImage>();
-        characterDescriptionText = CharacterDescriprion.GetComponent<TextMeshProUGUI>();
-        characterNameInText = CharacterName.GetComponent<TextMeshProUGUI>();
+        characterImageSprite = characterImage.GetComponent<RawImage>();
+        characterDescriptionText = characterDescriprion.GetComponent<TextMeshProUGUI>();
+        characterNameInText = characterName.GetComponent<TextMeshProUGUI>();
 
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
     public void UpdateIcon()
     {
@@ -49,7 +44,7 @@ public class CharacterInMenu : MonoBehaviour
     public void SetCharacter(InfoCharacter newCharacter)
     {
         characterInIcon = newCharacter;
-        Debug.Log(characterInIcon.characterName);
+        Debug.Log(characterInIcon.characterNameInMenu);
         UpdateIcon();
     }
     public void ShowCharacterDescription()
@@ -57,12 +52,12 @@ public class CharacterInMenu : MonoBehaviour
         if (inUse)
         {
             CharacterInMenuControl.instance.HideCharacterIcons();
-            InfoCharacterInMenus.SetActive(true);
-            CharacterImage.SetActive(true);
-            CharacterName.SetActive(true);
-            CharacterDescriprion.SetActive(true);
-            CharacterImageSprite.texture = characterInIcon.characterIconInMenu.texture;
-            characterNameInText.text = characterInIcon.characterName;
+            infoCharacterInMenus.SetActive(true);
+            characterImage.SetActive(true);
+            characterName.SetActive(true);
+            characterDescriprion.SetActive(true);
+            characterImageSprite.texture = characterInIcon.characterIconInMenu.texture;
+            characterNameInText.text = characterInIcon.characterNameInMenu;
             characterDescriptionText.text = characterInIcon.characterDescription;
         }
     }

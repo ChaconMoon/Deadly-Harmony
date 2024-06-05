@@ -1,0 +1,1235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: GameDialogues_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: b70a33992b56a104fb3deeb811da47f5, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 1
+    m_Localized: "Buenas noches, gracias a todos por acudir a este concierto ben\xE9fico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2
+    m_Localized: "Y muchas gracias al donante an\xF3nimo que ha donado cincuenta
+      mil euros para la fundaci\xF3n patitas peluditas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3
+    m_Localized: "Ahora esos gatitos podr\xE1n ser mimados hasta la saciedad."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4
+    m_Localized: "\xBFDe verdad me has hecho venir a un concierto de rock solo para
+      una asociaci\xF3n de gatitos\u2026?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5
+    m_Localized: "No pasa na\u2019, es rock del bueno por una vez. Aunque darlo en
+      una discoteca tiene tela..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6
+    m_Localized: "Oye Carlos, \xBFcomo que el rockero ese del escenario no est\xE1
+      mal no? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7
+    m_Localized: "\xBFA este no le pillaron conduciendo bajo los efectos de las drogas
+      hace un a\xF1o?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8
+    m_Localized: Ahora que lo dices su cara me suena un poco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9
+    m_Localized: "\xBFEste no es el pavo de las noticias que le estaf\xF3 a Hacienda
+      200 mil euros?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10
+    m_Localized: "Lo dices como si te extra\xF1ara que un artista defraude a Hacienda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11
+    m_Localized: "M\xE1s me extra\xF1a que ahora me monte un parip\xE9 de acto ben\xE9fico."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12
+    m_Localized: "Ser\xE1 para lavar su imagen."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13
+    m_Localized: Pero solo hemos venido 6 personas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14
+    m_Localized: "Normal, a ver quien se va a tragar esto despu\xE9s de que su geta
+      aparezca en Antena 3. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15
+    m_Localized: "Podr\xEDa ser peor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16
+    m_Localized: "Podr\xEDa haber aparecido en la isla de las tentaciones."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17
+    m_Localized: Ya que hemos salido antes del curro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18
+    m_Localized: "Y estoy hasta el mo\xF1o de que si rellena este documento para
+      el juicio, clasificame las pistas por all\xE1."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19
+    m_Localized: Y que estaban los carteles puestos en los cristales de la oficina,
+      pues he dicho why not?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20
+    m_Localized: Nos tomamos un mojito, buena musiquita y a dormir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 21
+    m_Localized: "\xBFHas visto Fernancuchi? Ya te dije que el fumeta de mi ex estar\xEDa
+      hoy aqu\xED dando el concierto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22
+    m_Localized: "M\xE1s bien dando la nota querr\xE1s decir. De cualquier manera
+      gracias por decirmelo, te aseguro que caer\xE1 sobre \xE9l todo el peso de
+      la hacienda p\xFAblica."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23
+    m_Localized: Lo que sea por ti Fernancuchi querido, pero quita a este tio de
+      mi vista.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 24
+    m_Localized: "Ay si hablando de otra cosa, vi esta ma\xF1ana en Cartier un anillo
+      precioso de \xD3palo con incrustaciones de Swarovski y lo quieeeeeeeero\u2026.."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25
+    m_Localized: " Vale, te dar\xE9 lo que quieras. Pero alejate no quiero que nos
+      vean juntos en p\xFAblico. *Beber de la copa*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26
+    m_Localized: "\xBFQu\xE9 estamos haciendo aqu\xED, Agan? No entiendo por qu\xE9
+      me arrastraste a venir a este concierto\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 27
+    m_Localized: "Es una oportunidad \xFAnica para analizar la ac\xFAstica del lugar.
+      Es perfecto para la nueva tesis que estoy desarrollando. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28
+    m_Localized: "\xBFHas considerado c\xF3mo las ondas sonoras se dispersan en un
+      entorno tan amplio y c\xF3mo afecta eso a nuestra percepci\xF3n del sonido?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29
+    m_Localized: "Bueno, no realmente. Estoy m\xE1s preocupado por c\xF3mo la multitud
+      va a abrumarme y me har\xE1 sentir a\xFAn peor. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30
+    m_Localized: "Solo soy tu compa\xF1ero de piso, pero arrastrarme a tus desquiciados
+      experimentos no es asunto m\xEDo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31
+    m_Localized: "Entiendo que est\xE9s preocupado, Tristan. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32
+    m_Localized: "Pero mira, podemos calcular la densidad de personas por metro cuadrado
+      y estimar cu\xE1nto espacio vital tenemos. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33
+    m_Localized: "\xBFQu\xE9 densidad ni que ocho cuartos? \xA1Si somos tres pelagatos
+      aqu\xED! \xBFMe dejas irme al apartamento de una vez?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 34
+    m_Localized: "Adem\xE1s, podr\xEDamos medir el nivel de ruido ambiental y ver
+      c\xF3mo se relaciona con tu experiencia emocional\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 35
+    m_Localized: "No estoy seguro de que mis emociones sigan una f\xF3rmula matem\xE1tica
+      tan clara\u2026"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 36
+    m_Localized: "Te noto incluso m\xE1s ansioso y depresivo que de costumbre, \xA1magnifico!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 37
+    m_Localized: "Bueno, la mente humana es compleja, pero a\xFAn sigue patrones
+      predecibles en muchos aspectos. "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38
+    m_Localized: "Podr\xEDamos intentar modelar tu estado de \xE1nimo y ver si podemos
+      encontrar alguna correlaci\xF3n con variables ambientales."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39
+    m_Localized: "Agan, eres un tipo extra\xF1o, pero aprecio que intentes ayudame
+      a salir un poco de mi cuarto por una vez."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40
+    m_Localized: "\xA1Genial! \xA1Vamos a hacer de este concierto una experiencia
+      cient\xEDfica inolvidable, Tristan! "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41
+    m_Localized: "Y qui\xE9n sabe, tal vez descubramos algo que pueda ayudarte a
+      sentirte mejor."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 42
+    m_Localized: Callate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43
+    m_Localized: "Se ha a\xF1adido la bebida envenenada al inventario."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44
+    m_Localized: Parece que tenemos una pista sobre el asesino.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 45
+    m_Localized: "*Alex se da cuenta de que Fernado se encuentra entre el p\xFAblico
+      y empieza a ponerse ansioso*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 46
+    m_Localized: "Ay mi madre. \xBFPero que hace este vejestorio aqui otra vez?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47
+    m_Localized: Caster baja que tenemos que hablar de tus cuentas pendientes, esta
+      vez no vas a librarte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48
+    m_Localized: "Venga t\xEDo, \xBFtiene que ser aqui delante de mi p\xFAblico?
+      Aunque sea vamos a la sala privada un momento."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49
+    m_Localized: "Quiero dar un espect\xE1culo pero no precisamente de este tipo,
+      \xBFme entiendes?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 50
+    m_Localized: "Como prefieras, pero no vas a seguir escaque\xE1ndote como de costumbre."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51
+    m_Localized: "Que si, que si, jes\xFAs..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 52
+    m_Localized: '*Alex y Fernando se van a la sala privada de la parte norte a hablar
+      solos*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53
+    m_Localized: "Mira Alex, esta es la \xFAltima vez que vengo a avisarte y creo
+      que he sido demasiado permisivo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54
+    m_Localized: Pero si no pagas la deuda que debes en una semana, voy a tener que
+      tomarme el asunto por mis manos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55
+    m_Localized: "\xBFA qu\xE9 demonios te est\xE1s refiriendo?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56
+    m_Localized: "O pagas, o le digo a tu querida princesita que el acto ben\xE9fico
+      es solo una mentira y que el dinero es para tu uso personal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57
+    m_Localized: "\xA1Eso es mentira y lo sabes! Jam\xE1s mentiria a Tiffany. El
+      dinero es s\xF3lo para su organizaci\xF3n."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58
+    m_Localized: Pero eso ella no lo sabe. O pagas o le digo que es todo una argucia
+      tuya para quedarte con mitad del dinero que saques del concierto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59
+    m_Localized: "Y despu\xE9s la dire que yo he venido aqu\xED para impedirtelo.
+      *Se engatusa el tup\xE9 dram\xE1ticamente*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60
+    m_Localized: "\xA1Ser\xE1s...!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61
+    m_Localized: '*Se escuchan muchos gritos y voces desde el interior de la sala
+      VIP*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62
+    m_Localized: "\xA1\xBFPero qu\xE9 narices?!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63
+    m_Localized: '*Alex aparece en la sala jadeando y con cara de puro terror*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 64
+    m_Localized: "\xA1Oigan, tenemos un problema! \xA1Al viejo le ha dado un ataque
+      a la patata o qu\xE9 se yo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65
+    m_Localized: "\xBFY esos gritos? Carlos creo que le ha pasado algo a Alex."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 66
+    m_Localized: "Deber\xEDamos acercarnos a ver que sucede."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67
+    m_Localized: "\xBFAlex que sucede, va todo bien?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68
+    m_Localized: "\xA1\xBFTodo bien?! \xA1Te digo que al viejo le ha dado un apechusque!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69
+    m_Localized: "Respira y cu\xE9ntanos que ha pasado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 70
+    m_Localized: "Ver\xE1s, tengo unos problemitas con el se\xF1or Fernando, nada
+      grave."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 71
+    m_Localized: "Est\xE1bamos conversando, me calente sin querer y fui a agarrarle
+      al cuello para que se callara."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72
+    m_Localized: "\xA1Pero te juro que no me dio tiempo a apretar las manos demasiado
+      fuerte como para matarlo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 73
+    m_Localized: 'Cuando me di cuenta el viejo ya tenia sangre en la boca y no estaba
+      respirando. '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 74
+    m_Localized: '*Miro a Carlos de reojo*'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 75
+    m_Localized: "\xBFHora de investigar? "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76
+    m_Localized: Yup.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77
+    m_Localized: Nosotros nos ocupamos Alex.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78
+    m_Localized: "Somos detectives privados. *Carlos ense\xF1a la placa*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 79
+    m_Localized: "Est\xE1bamos de descanso y vinimos al ver el concierto para relajarnos
+      un poco, pero parece que es hora de trabajar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80
+    m_Localized: "Se ha a\xF1adido el perfil de Alex al men\xFA de perfiles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 81
+    m_Localized: Por cierto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82
+    m_Localized: "T\xFA, si t\xFA, el que est\xE1 pasando mis di\xE1logos sin ton
+      ni son."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 83
+    m_Localized: Cuando investiguemos la escena e interroguemos a los testigos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84
+    m_Localized: Puedes ver los perfiles y las pistas reunidas pulsando [TAB].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85
+    m_Localized: "Bueno, \xA1al l\xEDo!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 86
+    m_Localized: "Espera... \xBFesto es un peluqu\xEDn?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 87
+    m_Localized: "Carlos, \xBFme est\xE1s tomando el pelo? Pfffhaha... *Se limpia
+      una lagrimilla*"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88
+    m_Localized: "Has obtenido el peluqu\xEDn de Fernando, !PUAJ!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89
+    m_Localized: "\xBFTe has dado cuenta de esto Carlos?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90
+    m_Localized: "\xBFQu\xE9 sucede?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 91
+    m_Localized: "Mira bien, \xBFno te resulta extra\xF1o el cuello?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92
+    m_Localized: Ahora que lo dices... El cuerpo de Fernando no tiene marcas en el
+      cuello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93
+    m_Localized: Lo que dijo Alex Caster parece ser verdad. No tiene signos de un
+      estrangulamiento fuerte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94
+    m_Localized: "Ni tampoco tiene ara\xF1azos de autodefensa con sus u\xF1as intentando
+      liberarse. Que curioso..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95
+    m_Localized: "Se ha a\xF1adido \"Marcas en el Cuello\" al bloc de notas."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96
+    m_Localized: "Que escena tan grotesca, pobre se\xF1or."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97
+    m_Localized: Tiene toda la boca encharcada de sangre, sea lo que fuere, parece
+      bastante doloroso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98
+    m_Localized: Pero no parece que presente signos de axfisia, dudo que esa sangre
+      tenga que ver con los pulmones.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99
+    m_Localized: "Tampoco presenta heridas en los labios ni el interior de la boca,
+      lo mas probable es que tosiese y esa sangre venga del est\xF3mago."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100
+    m_Localized: "Si te das cuenta, hay gotitas de sangre en su manga, asi que la
+      idea de que tosi\xF3 sangre me resulta lo m\xE1s plausible."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101
+    m_Localized: "Se ha a\xF1adido \"Manchas de Sangre\" al bloc de notas"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102
+    m_Localized: "Se ha a\xF1adido el perfil de Fernando al men\xFA de perfiles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103
+    m_Localized: Esta claro que quien lo ha haecho es alguien de los aqui presentes,
+      ya que ese tio estaba vivo antes de entrar a esta sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104
+    m_Localized: "\xBFCrees que pudo haber sido Caster?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105
+    m_Localized: Por desgracia, ellos 2 entraron a esta sala y solo uno de ellos
+      ha salido vivo...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106
+    m_Localized: Creo que deberiamos interrogar al resto de personas que estan en
+      la otra sala alguno tiene que conocer a la victima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107
+    m_Localized: "Quitando a la v\xEDctima solo quedan 5 personas, con Alex son 6."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108
+    m_Localized: "Antes vi a la v\xEDctima hablando con una chica, deberiamos empezar
+      por ella. Pero antes hablemos con Caster."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109
+    m_Localized: "\xBFQu\xE9 hab\xE9is averiguado?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110
+    m_Localized: "Alex...Est\xE1 muerto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111
+    m_Localized: "\xBFQu\xE9? \xBFC\xF3mo? Si yo no lo mat\xE9."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112
+    m_Localized: Creemos que la causa de la muerte no fue por extrangulamiento.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113
+    m_Localized: "\xBFSeguro que no le hicistes nada?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114
+    m_Localized: "No, claro que no. No me caia bien, pero tampoco le matar\xEDa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115
+    m_Localized: "Lo \xFAnico que sabemos es que entrasteis ustedes dos y solo uno
+      salio vivo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116
+    m_Localized: "Podr\xEDa contar exactamente que paso."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117
+    m_Localized: Claro...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118
+    m_Localized: "La victima es un agente de Hacienda que quer\xEDa hacerme chantaje
+      con contarle a mi ex que me iba a quedar con el dinero del concierto."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119
+    m_Localized: "Mi ex, es la due\xF1a de la organizacion a la que le iba a donar
+      el dinero y quer\xEDa que viera que soy buena persona."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120
+    m_Localized: "Ha venido como p\xFAblico, podeis hablar con ella."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121
+    m_Localized: "La \xFAnica mujer que hay aqui es la que estaba con la victima."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122
+    m_Localized: Muy sospechoso la verdad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123
+    m_Localized: Vamos a hablar con ella.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124
+    m_Localized: "Se\xF1orita..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 125
+    m_Localized: ... *Le ignora*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 126
+    m_Localized: "Se\xF1orita..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127
+    m_Localized: ... *Le sigue ignorando*
+    m_Metadata:
+      m_Items: []
+  - m_Id: 128
+    m_Localized: "SE\xD1ORITAAAA."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129
+    m_Localized: "\xBFPero qu\xE9 quereis...?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 130
+    m_Localized: "Quer\xEDamos preguntarle sobre el hombre con el que estaba."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131
+    m_Localized: "Ah, s\xED, mi querido Fernancuchi."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 132
+    m_Localized: Fernan....cuchi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 133
+    m_Localized: "Podria hablarnos mas de \xE9l."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 134
+    m_Localized: "\xBFPor qu\xE9 deberia hablar de \xE9l?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 135
+    m_Localized: "Se\xF1orita..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 136
+    m_Localized: Tiffany Diamond...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137
+    m_Localized: Tiffany.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 138
+    m_Localized: Ese hombre con el que estaba... Ha muerto...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 139
+    m_Localized: "\xBF\xBFFernan....cuchi ha muerto...??"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140
+    m_Localized: "S\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141
+    m_Localized: "Lo sab\xEDa... \xA1El idiota de mi ex lo acabaria matando!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142
+    m_Localized: '*Pensando* Osea que es cierto que es la ex de Caster.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143
+    m_Localized: "\xBFPodria hablarnos de su relaci\xF3n con Fernanchuchi?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144
+    m_Localized: "Vale, pero antes de hablar... Tu compa\xF1ero, o lo que sea eso,
+      \xBFes hombre, mujer?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145
+    m_Localized: Lo digo porque para una mujer vaya ropa mas hortera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146
+    m_Localized: "S\xED."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147
+    m_Localized: "\xBFC\xF3mo que s\xED?..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148
+    m_Localized: "S\xEDp."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 149
+    m_Localized: "\xBFEntonces eres t\xEDo o t\xEDa? \xBFTe importar\xEDa responderme?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150
+    m_Localized: "Creo que te ha respondido exactamente lo que quer\xEDa decir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151
+    m_Localized: Bueno, hablenos sobre el hombre con el que estaba por favor. Mi
+      ropa no tiene nada que ver con esto.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152
+    m_Localized: "Era un agente de Hacienda al que le daba informaci\xF3n sobre mi
+      ex a cambio de favores... Mi Fernanlindo aun me debe un anillo de \xD3palo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153
+    m_Localized: Pues... Va a estar complicado ahora.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154
+    m_Localized: Creo que ya tenemos lo que necesitamos...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 155
+    m_Localized: "Se ha a\xF1adido la informacion de Tiffany al men\xFA de perfiles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156
+    m_Localized: "Se ha a\xF1adido la informacion de Fernando al men\xFA de perfiles"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 160
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 161
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 162
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 163
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 164
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 165
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 166
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 171
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 172
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 174
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 175
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 176
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 177
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 179
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 180
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 181
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 182
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 183
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 184
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 185
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 186
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 189
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 190
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 191
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 374
+    m_Localized: Hola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 375
+    m_Localized: Si estas viendo esto o soy yo, o alguien de twitter ya que soy el
+      unico que sabe como se activa este dialogo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 376
+    m_Localized: He incluido este dialogo como easter egg solo porque necesito desahogarme
+      sobre el curso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 377
+    m_Localized: Estas ultimas semanas estan siendo una tortura para mi, bueno en
+      general todo el curso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 378
+    m_Localized: Llevo todo el curso durmiendo apenas 7 horas al dia principalmente
+      porque para cumplir con los plazos de entrega me veo obligado a quedarme hasta
+      la tantas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 379
+    m_Localized: Precisamente estoy escribiendo esto a las 12 de la noche justo despues
+      de terminar de cenar porque salir del curso a las 21:40 me ha destrozado el
+      horario.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380
+    m_Localized: Y seguramente me quede trabajando hasta las 2 am.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 381
+    m_Localized: Escribo esto... Porque ya no aguanto mas llevo semanas en las que
+      practicamente me levanto, hago cosas del curso, voy a clase y vuelvo y vuelvo
+      a hacer cosas del curso.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 382
+    m_Localized: Y el poco tiempo libre que tengo lo estoy empleando jugando Minecraft
+      y Ninjala porque es lo unico que me relaja.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 383
+    m_Localized: No me estoy quejando del proyecto, precisamente es con los que menos
+      problemas tengo y lo que mas estoy disfrutando, mi problema es contodo lo demas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 384
+    m_Localized: Y la gota que ha colmado el vaso ha sido algo que nos ha dicho un
+      profesor en la que he sentido que nos llamado vagos por ir retrasados con algunas
+      entregas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 385
+    m_Localized: Parece que os creis que solo tenemos tu asignatura intentaros cordinados
+      un poco.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 386
+    m_Localized: Tengo que hacer este proyecto, otro en VR donde el profesor no hace
+      nada, y las otras son tareas semanales que a duras penas puedo terminar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387
+    m_Localized: Dedico todo el tiempo que puedo al curso a mejorar como programador
+      y a aprender mas sobre unity y aun asi parece que no es suficiente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 388
+    m_Localized: Si no me he quejado de la situacion de la clase es porque como delegado
+      he intentado mantenerme lo mas neutral posible, aunque estoy seguro que no
+      soy el unico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 389
+    m_Localized: Estoy harto...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 390
+    m_Localized: Porque me siento tal mal por tener alguna tarea tarde, nos la siguen
+      evaluando.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 391
+    m_Localized: ', pero mis profesores me hacen sentir que por mucho que haga no
+      es sufiente y me siento mal conmigo mismo.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 392
+    m_Localized: Estan siendo unas semanas muy duras en las que si duermo es solo
+      porque rindo mejor descansado, supongo que es lo que tiene la industria del
+      videojuego.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 393
+    m_Localized: "Y los profesores hechando mas le\xF1a al fuego no ayuda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 394
+    m_Localized: Por eso estoy incluyendo este mensaje en mi proyecto, no me quejare
+      a los profesores, pero sabiendo que han evaluado algo donde expreso como me
+      siento es sufiente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 395
+    m_Localized: Ojala la industria del videojuego no acabe conmigo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 396
+    m_Localized: Veo este curso de desarrollo de videojuegos como un viaje, un viaje
+      que esta apunto de terminar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 397
+    m_Localized: Si no suspendo nada me quedan 2 semanas de curso tras eso me tomare
+      el mayor descanso de mi vida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 398
+    m_Localized: Gracias por leer/ver esto. Y por favor no te preocupes por mi, tratare
+      de estar bien.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 399
+    m_Localized: Solo queria desahogarme y esta es la mejor manera que se me ha ocurrido
+      hacerlo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 400
+    m_Localized: Buena esta es la ultima actualizacion mi proyecto de final de final
+      de curso que lo entrego la semana que viene.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 401
+    m_Localized: El primer cambio ya lo habreis notado y es que ahora hay un sonido
+      y musica de fondo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 402
+    m_Localized: No se de donde es la musica, creo que es de Honkai Star Rail no
+      estoy seguro.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 403
+    m_Localized: Lo siguiente es el fondo que esta totalmente terminado, no se ve
+      mucho, adjuntare una imagen completa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 404
+    m_Localized: "Los assests son de un paquete de assests de Itch.io gracias a los
+      que me compa\xF1ero ha podido dise\xF1ar este escenario"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 405
+    m_Localized: "Las 2 ultimas cosas a\xF1adidas son los siguientes:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 406
+    m_Localized: "\xA1SOLO HAY UNA VERDAD!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 407
+    m_Localized: "Exacto. Como habras visto hemos a\xF1adido una serie de logros
+      que podes programar para que salten cuando queramos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 408
+    m_Localized: Ademas podemos cambiar la banda sonora de fondo en cualquier momento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 409
+    m_Localized: Ojala esto de lugar a que en el juego haya situaciones muy tensas,
+      si he conseguido poder incluir la banda sonora de detective conan y un logro
+      con ello.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410
+    m_Localized: Hay 6 logros que pueden saltar cada uno en determinadas circustancias.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 411
+    m_Localized: Para mi desgracia no tiene pinta que vayamos a terminar toda la
+      historia pero solo se nos pide una alfa funcional.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 412
+    m_Localized: Esta es la ultima actualizacion que hare antes de la presentacion
+      y a lo mejor hago una despues contando que tal ha ido la cosa.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 413
+    m_Localized: Ademas me complace informar que es posible que haga publico esto
+      como proyecto terminado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 414
+    m_Localized: 'Pero sera un proceso largo ya que implicaria: Terminar el juego,
+      quitar los assets con derechos de autor, como la musica y mejorar el juego.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 415
+    m_Localized: Si lo publicamos se haria en Itch.io de forma gratuita y el codigo
+      en GitHub para tenerlo como portfolio de cara a las empresas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 416
+    m_Localized: Si lo hacemos sera a lo largo del verano, les pido paciencia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 417
+    m_Localized: Hola Selene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 418
+    m_Localized: Lamento informarte deberas repetir curso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 419
+    m_Localized: Como cres que me veo en color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 420
+    m_Localized: Aqui estoy del otro lado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421
+    m_Localized: Carlos creo que este esta un poco quieto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 422
+    m_Localized: Solo es un NPC de pruebas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 423
+    m_Localized: Su unica finalidad es activar esta conversacion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 424
+    m_Localized: Ahora lo entiendo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 425
+    m_Localized: Hola gente de Twitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 426
+    m_Localized: Este dialogo es para probar que los NPCs pueden enviarte una conversacion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 427
+    m_Localized: Hoy he podido hacer un gran avance, si os fijais arriba a la izquierda
+      hay un icono que indica que puedo hablar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 428
+    m_Localized: "Ademas gracias a mi compa\xF1ero ahora estoy a color, me encanta
+      el resultado."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 429
+    m_Localized: Ahora toca ver cual es el siguiente punto del desarollo estare unos
+      dias pensando.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 430
+    m_Localized: Adios, nos vemos otro dia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 431
+    m_Localized: "Prueba para a\xF1adir la info de Fernando a la libreta de apuntes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 432
+    m_Localized: "La informacion de Fernanchuchi se ha a\xF1adido a la libreta"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 433
+    m_Localized: "Se ha a\xF1adido la informacion del contenido de la bebida a la
+      libreta de apuntes"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 434
+    m_Localized: (Explicacion del crimen)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435
+    m_Localized: "(Fin de la explicaci\xF3n del crimen)"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 436
+    m_Localized: "\xA1SOLO HAY UNA VERDAD!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437
+    m_Localized: Hey Selene
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438
+    m_Localized: Me alegro que ahora ambos nos veamos a color.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439
+    m_Localized: Si. ya estamos incluidos dentro del juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440
+    m_Localized: Ojala pronto podamos tener completo a nuestro plantel de personajes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 441
+    m_Localized: 3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582
+    m_Metadata:
+      m_Items: []
+  - m_Id: 442
+    m_Localized: Pronto empezara el concierto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443
+    m_Localized: Porfa no me asesineis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444
+    m_Localized: O sea que emocion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445
+    m_Localized: Que triste estoy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 446
+    m_Localized: Ahora en serio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447
+    m_Localized: No puedo evitar tener la sensacion de que te estoy presionando demasiado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 448
+    m_Localized: No se si tal vez iremos muy justos con el tiempo del proyecto sabiedno
+      que nos queda unicamente el mes de mayo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 449
+    m_Localized: Yo intentare hacer toda la UI del juego y ver cuando la puedo hacer
+      funcional
+    m_Metadata:
+      m_Items: []
+  - m_Id: 450
+    m_Localized: "Espero que puedas seguir manteniendo el nivel los dise\xF1os de
+      los personajes y me muerdo de ganas de ver al resto de personajes ahora si..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 451
+    m_Localized: Adios
+    m_Metadata:
+      m_Items: []
+  - m_Id: 452
+    m_Localized: Prueba de opciones de dialogo 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 453
+    m_Localized: Tal vez deberia mejorar la interfaz que maneja esto ya que de momento
+      es un poco cutre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 454
+    m_Localized: Me faltaria hacer que mediante programacion puedas activar los dialogos
+      deshabilitados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 455
+    m_Localized: El siguiente dialogo es relleno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 456
+    m_Localized: aaaaaaaaaaaaaaaaaaaaah
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

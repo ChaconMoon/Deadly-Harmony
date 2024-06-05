@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2a6ff2032660604e84117f05700e864, type: 3}
+  m_Name: TRISTAN_AGAN_DIALOGUE_1_14
+  m_EditorClassIdentifier: 
+  infoCharacterLeft: {fileID: 11400000, guid: 8e977e3f2fc9b6341a0c6fed535145a0, type: 2}
+  infoCharacterRight: {fileID: 11400000, guid: 4ccc256188fed1b408306bbf83516104, type: 2}
+  dialogueText: "Agan, eres un tipo extra\xF1o, pero aprecio que intentes ayudame
+    a salir un poco de mi cuarto por una vez."
+  whoIsTalking: 0
+  numberImageLeft: 0
+  numberImageRight: 0
+  hasEvents: 0
+  eventType: 6
+  characterToAdd: {fileID: 0}
+  itemToAdd: {fileID: 0}
+  nextDialogueToShow: {fileID: 0}
+  newCameraPosition: 

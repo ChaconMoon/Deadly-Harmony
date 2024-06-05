@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea8f5d2fb7969441a0abd429185e4f4, type: 3}
+  m_Name: TRISTAN_AGAN_DIALOGUE_1
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 6e9c75c5ae831514b80b3df451c138d2, type: 2}
+  - {fileID: 11400000, guid: 8e14a78bebe0719428e0a9f4f584caa6, type: 2}
+  - {fileID: 11400000, guid: 5fd17fdbf0099944bb83623d67e2038a, type: 2}
+  - {fileID: 11400000, guid: 924f93a2f0d133e4db2f63528909f5f1, type: 2}
+  - {fileID: 11400000, guid: f4185353b3ed9224ba3f3ca0f4a8ca7e, type: 2}
+  - {fileID: 11400000, guid: ecd6f430f2634c748a931f710dbdb7ae, type: 2}
+  - {fileID: 11400000, guid: c0de3a550ad8e144d8c23147f277a361, type: 2}
+  - {fileID: 11400000, guid: b529001a51198f543b75c4288353118e, type: 2}
+  - {fileID: 11400000, guid: ccdf9b5649e4d7e46ae3a5eaf526b00a, type: 2}
+  - {fileID: 11400000, guid: b7284b4b41f36754699894f1b0a48c78, type: 2}
+  - {fileID: 11400000, guid: 537eb7be092971c4c95381518f895309, type: 2}
+  - {fileID: 11400000, guid: 48691ef97eab985418f95afe34ea3c52, type: 2}
+  - {fileID: 11400000, guid: 7db6cbc3d72f1674aa86eb127d52b828, type: 2}
+  - {fileID: 11400000, guid: 8084683f1343c304b9081033d41e1e66, type: 2}
+  - {fileID: 11400000, guid: 11710f1ac3ae7334899e4b8a3f7bae4b, type: 2}
+  - {fileID: 11400000, guid: 52fa8eddc3f00224dbad568a2fecd87b, type: 2}
+  - {fileID: 11400000, guid: ae33329cb3dc76a40a46959f82ce5dc7, type: 2}

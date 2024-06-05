@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eea8f5d2fb7969441a0abd429185e4f4, type: 3}
+  m_Name: CUELLO
+  m_EditorClassIdentifier: 
+  dialogues:
+  - {fileID: 11400000, guid: 8b2d12526100eb2468f30ef6f53f7107, type: 2}
+  - {fileID: 11400000, guid: 74aefaf464b08644b9903f611762f5fe, type: 2}
+  - {fileID: 11400000, guid: 646698e8a57afd642837042921723c59, type: 2}
+  - {fileID: 11400000, guid: c57912166a2c6ef419e228f58c68c5ae, type: 2}
+  - {fileID: 11400000, guid: 51f98ceeee98c624db8e28cfceabfc3a, type: 2}
+  - {fileID: 11400000, guid: 5ebf9a774ea86ad4596f46f0dfd217a8, type: 2}
+  - {fileID: 11400000, guid: 5b14e64068bbeb6489a3ee8b9432d205, type: 2}
