@@ -36,7 +36,7 @@
                     "name": "CerrarJuego",
                     "type": "Button",
                     "id": "81de8f26-23dd-4e95-8e2d-2217f9ff30c2",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
