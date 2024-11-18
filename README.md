@@ -1,5 +1,4 @@
 # Deadly Harmony (Provisional Name)
----
 Deadly Harmony is my final project of my course in multi-platform application development.
 This project is a demo of a about of 8 minutes of a visual novel about a murder in the mansion of a famous guitarist.
 
