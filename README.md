@@ -6,7 +6,7 @@ This project is a demo of a about of 8 minutes of a visual novel about a murder 
 For more info about  the game structure and operation open [ABOUT.md](https://github.com/ChaconMoon/Deadly-Harmony/blob/main/ABOUT.md)
 
 
-## Project Info
+## Project clone and build
 
 This projects works with Unity versión 6000.0.24f1.
 
