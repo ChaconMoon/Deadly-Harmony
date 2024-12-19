@@ -14,7 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   infoCharacterLeft: {fileID: 11400000, guid: 672a3fd0c3eaccb4483f18030aae570f, type: 2}
   infoCharacterRight: {fileID: 11400000, guid: a3d57f1bf8bbfe642a89ca252ecf8f87, type: 2}
-  dialogueText: "\xA1SOLO HAY UNA VERDAD!"
   whoIsTalking: 0
   numberImageLeft: 0
   numberImageRight: 0
@@ -25,4 +24,5 @@ MonoBehaviour:
   nextDialogueToShow: {fileID: 0}
   newCameraPosition: 
   achivementToGet: {fileID: 11400000, guid: 1208e6f58f8511f4ab80ef842d4b4216, type: 2}
-  dialogueAudio: {fileID: 0}
+  dialogueAudio: {fileID: 8300000, guid: 5331e670e256c8042ad0001b57168459, type: 3}
+  animationName: 
