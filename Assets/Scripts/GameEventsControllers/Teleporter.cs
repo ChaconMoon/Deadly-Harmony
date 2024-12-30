@@ -28,11 +28,11 @@ public class Teleporter : MonoBehaviour
     }
     private void Update()
     {
-        if (CharacterMove.characterOptions.isInteractive && isCharacterNear && canInteract)
+        if (CharacterController.characterController.isInteractive && isCharacterNear && canInteract)
         {
             canInteract = false;
-            CharacterMove.characterOptions.gameObject.transform.position = destiny.position;
-            CharacterMove.characterOptions.partnerMove.gameObject.transform.position = destiny.position - new Vector3(0,1,0);
+            CharacterController.characterController.gameObject.transform.position = destiny.position;
+            CharacterController.characterController.partnerMove.gameObject.transform.position = destiny.position - new Vector3(0,1,0);
             canInteract = true;
         }
     }

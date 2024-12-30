@@ -6,42 +6,129 @@ using UnityEngine;
 using UnityEngine.Localization.Components;
 using UnityEngine.UI;
 
+/// <summary>
+/// DialogueControl control the UI with the dialogue and Sets the content
+/// </summary>
 public class DialogueControl : MonoBehaviour
 {
-    [Header("Partes UI")]
+    /// The objects in UI Parts are the parts that the Dialogue control need to reference
+
+    /// <summary>
+    /// The reference to the UI base GameObject
+    /// </summary>
+    [Header("UI Parts")]
     public GameObject dialogueUI;
+
+    /// <summary>
+    /// The reference to the character gameObject in the left
+    /// </summary>
     public GameObject characterLeft;
+
+    /// <summary>
+    /// The reference to the character gameObject in the right
+    /// </summary>
     public GameObject characterRight;
+
+    /// <summary>
+    /// The reference to the gameObject with the Dialogue box
+    /// </summary>
     public GameObject dialogueBox;
+
+    /// <summary>
+    /// The reference to the gameObject with the name of character in the left 
+    /// </summary>
     public GameObject characterBoxLeft;
+
+    /// <summary>
+    /// The reference to the gameObject with the name of character in the right 
+    /// </summary>
     public GameObject characterBoxRight;
 
+    /// <summary>
+    /// dialogues cointain the list of the dialogues of the actual conversation of the game.
+    /// </summary>
     [Header("Dialogue Content")]
-    private DialogueContent dialogueContent;
     private Dialogue[] dialogues;
+
+    /// <summary>
+    /// actualDialogue is a iterative int used get the dialogues in the list in order.
+    /// </summary>
     private int actualDialogue;
 
+    /// <summary>
+    /// The Singleton object of this class
+    /// </summary>
     [Header("Singleton")]
     public static DialogueControl dialogueControl;
 
-    [Header("Components")]
+    /// This are the components of the objects of the UI Parts and Dialogues
+
+    /// <summary>
+    /// The Image component of the Character at the left
+    /// </summary>
+    [Header("UI Components")]
     private Image characterLeftSprite;
+
+    /// <summary>
+    /// The Image component of the Character at the right
+    /// </summary>
     private Image characterRightSprite;
+
+    /// <summary>
+    /// The Text component that show the text in the Dialogue UI
+    /// </summary>
     private TextMeshProUGUI actualTextDialogueUI;
+
+    /// <summary>
+    /// The text of the dialogue in the UI
+    /// </summary>
     private string actualTextDialogue;
+
+    /// <summary>
+    /// The name of the Character at the Left
+    /// </summary>
     private string actualNameCharacterLeft;
+
+    /// <summary>
+    /// The name of the Character at the Right
+    /// </summary>
     private string actualNameCharacterRight;
+
+    /// <summary>
+    /// The reference to the text component that contain the name Character at the Left
+    /// </summary>
     private TextMeshProUGUI actualNameCharacterLeftOnUI;
+
+    /// <summary>
+    /// The reference to the text component that contain the name Character at the Right
+    /// </summary>
     private TextMeshProUGUI actualNameCharacterRightOnUI;
+
+    /// <summary>
+    /// The reference to the Co-rutine that writes the Dialogue in the UI
+    /// </summary>
     private IEnumerator writeDialogues;
+
+    /// <summary>
+    /// The reference to the Audio effect that sound when the UI write te text
+    /// </summary>
     public AudioClip audioTypingEffect;
+
+    /// <summary>
+    /// The reference to the Animator that execute the animations of the game
+    /// </summary>
     public Animator GlobalCharacterAnimator;
 
+    /// <summary>
+    /// The object that the Game use to get a String of one of the Game Lenguages
+    /// </summary>
     [Header("Localization")]
     private LocalizeStringEvent stringEvent;
-    private string actualLocalizateStringDialogue;
 
-    // Start is called before the first frame update
+
+    /// <summary>
+    /// Initialice all the Component that use the dialogue UI
+    /// </summary>
     void Start()
     {
         stringEvent = GetComponent<LocalizeStringEvent>();
@@ -60,16 +147,6 @@ public class DialogueControl : MonoBehaviour
         dialogueControl = this;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        /**
-         if (Input.GetKeyDown(KeyCode.Tab))
-        {
-            GoToNextDialogue();
-        }
-        **/
-    }
     private void GetCharacterLeft()
     {
         if (DialoguesShowNames())
@@ -270,12 +347,12 @@ public class DialogueControl : MonoBehaviour
         Debug.Log("EndConversation");
         EarseDialogueUI();
         dialogueUI.SetActive(false);
-        CharacterMove.characterOptions.StopTalking();
+        CharacterController.characterController.StopTalking();
     }
     public void StartConversation(DialogueContent dialogue)
     {
         actualDialogue = 0;
-        CharacterMove.characterOptions.StartTalking();
+        CharacterController.characterController.StartTalking();
         //JukeboxMusic.instance.PauseMusic();
         SetDialogues(dialogue);
         EarseDialogueUI();

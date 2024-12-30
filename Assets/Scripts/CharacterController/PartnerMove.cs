@@ -5,7 +5,7 @@ using UnityEngine;
 public class PartnerMove : MonoBehaviour
 {
     [Header("Principal Character")]
-    public CharacterMove mainCharacter;
+    public CharacterController mainCharacter;
     public bool followCharacter = true;
     private Vector2 mainCharacterPosition;
     private Vector2 posicionDestino;

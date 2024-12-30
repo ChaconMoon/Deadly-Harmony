@@ -6,7 +6,7 @@ using UnityEngine.Localization.Settings;
 public class GameManager : MonoBehaviour
 {
     public DialogueContent starterDialogue;
-    public CharacterMove mainCharacter;
+    public CharacterController mainCharacter;
     public AudioClip startBackgroundMusic;
     public static GameManager gameManager;
     public Game_Localization starterLocalization;

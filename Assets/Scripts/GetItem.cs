@@ -34,7 +34,7 @@ public class GetItem : MonoBehaviour
     }
     private void Update()
     {
-        if (CharacterMove.characterOptions.isInteractive && isCharacterNear && canInteract)
+        if (CharacterController.characterController.isInteractive && isCharacterNear && canInteract)
         {
             canInteract = false;
             StartCoroutine(InteractionEffect());

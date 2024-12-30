@@ -35,7 +35,7 @@ public class InteractionJukebox : MonoBehaviour
     }
     private void Update()
     {
-        if (CharacterMove.characterOptions.isInteractive && isCharacterNear && canInteract)
+        if (CharacterController.characterController.isInteractive && isCharacterNear && canInteract)
         {
             InteractionEffect();
             canInteract = false;

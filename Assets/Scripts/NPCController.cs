@@ -21,7 +21,7 @@ public class NPCController : MonoBehaviour
         if (collision.gameObject.CompareTag("InteractionPoint"))
         {
             Debug.Log("Dentro Interacción");
-            CharacterMove.characterOptions.SetNPCDialogue(NPCDialogue);
+            CharacterController.characterController.SetNPCDialogue(NPCDialogue);
             UIControl.UIOptions.ChangeInteractionIconToTalk();
         }
     }
@@ -30,7 +30,7 @@ public class NPCController : MonoBehaviour
         if (collision.gameObject.CompareTag("InteractionPoint"))
         {
             Debug.Log("Fuera Interacción");
-            CharacterMove.characterOptions.EarseNPCDialogue();
+            CharacterController.characterController.EarseNPCDialogue();
             UIControl.UIOptions.ChangeInteractionIconToCross();
         }
     }

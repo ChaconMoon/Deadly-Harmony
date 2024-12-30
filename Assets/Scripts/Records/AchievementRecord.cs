@@ -1,11 +1,19 @@
 using System.Collections.Generic;
 using UnityEngine;
-
+/// <summary>
+/// This class contain the achievement record
+/// </summary>
 public sealed class AchievementRecord: MonoBehaviour
 {
+    /// <summary>
+    /// The list that cointain the record of the achievements
+    /// </summary>
     [Header("Register")]
-    public static List<Achievement> achievementRegister;
+    private static List<Achievement> achievementRegister;
     
+    /// <summary>
+    /// The Singleton object that other objects use to get the record
+    /// </summary>
     [Header("Singleton")]
     public static AchievementRecord achievementRecord;
 
@@ -15,7 +23,11 @@ public sealed class AchievementRecord: MonoBehaviour
         achievementRecord = this;
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    /// <summary>
+    /// Check if the achievement it in the record and and it if is not in it
+    /// </summary>
+    /// <param name="newAchievement">The new achievement to add</param>
+    /// <returns>If it's add to the record</returns>
     public bool AddToRecord(Achievement newAchievement)
     {
         foreach (var achievement in achievementRegister)
