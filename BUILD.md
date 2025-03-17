@@ -3,7 +3,7 @@
 Clone the repository in a folder of your computer.
 
 ```bash
-git -clone https://github.com/ChaconMoon/Deadly-Harmony.git
+git clone https://github.com/ChaconMoon/Deadly-Harmony.git
 ```
 
 Run Unity Hub and Install the Unity 6000.0.24f1 if you don't have it.
