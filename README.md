@@ -12,7 +12,7 @@ This projects works with Unity versión 6000.0.24f1.
 To open this project clone the git repository in a folder a of your computer
 
 ```bash
-git -clone https://github.com/ChaconMoon/Deadly-Harmony.git
+git clone https://github.com/ChaconMoon/Deadly-Harmony.git
 ```
 
 For more information about get and build this project open [BUILD.md](https://github.com/ChaconMoon/Deadly-Harmony/blob/main/BUILD.md)
