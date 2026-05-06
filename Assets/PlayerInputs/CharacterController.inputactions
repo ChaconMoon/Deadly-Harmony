@@ -18,7 +18,7 @@
                     "name": "Interactuar",
                     "type": "Button",
                     "id": "869add85-1ed4-406e-97e2-b388166c5e4e",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -27,7 +27,7 @@
                     "name": "AbrirManu",
                     "type": "Button",
                     "id": "46c909cb-9279-4571-8226-676952bf49f7",
-                    "expectedControlType": "Button",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -222,7 +222,7 @@
                 {
                     "name": "",
                     "id": "c57cae01-935c-490e-b147-1db2ab55a186",
-                    "path": "<Gamepad>/buttonEast",
+                    "path": "<Gamepad>/buttonSouth",
                     "interactions": "",
                     "processors": "",
                     "groups": "Mando",
