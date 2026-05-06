@@ -1,0 +1,55 @@
+name: Xbox Developer Mode Build
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v2
+
+    - name: Generate self-signed certificate for Xbox
+      shell: powershell
+      run: |
+        $cert = New-SelfSignedCertificate -Type Custom -Subject "CN=Deadly-Harmony" `
+          -KeyUsage DigitalSignature -FriendlyName "Deadly-Harmony Xbox Dev Cert" `
+          -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable
+        
+        $certPath = "build\Visual Studio Project\Deadly-Harmony_TemporaryKey.pfx"
+        $password = ConvertTo-SecureString -String "temporary" -Force -AsPlainText
+        
+        Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $password
+        Write-Output "Certificate generated at: $certPath"
+
+    - name: Build Xbox Series X Project
+      uses: buildalon/unity-uwp-builder@v1
+      id: xbox-build
+      with:
+        project-path: './build/Visual Studio Project'
+        architecture: 'ARM64'
+        configuration: 'Master'
+        package-type: 'sideload'
+        certificate-path: './build/Visual Studio Project/Deadly-Harmony_TemporaryKey.pfx'
+
+    - name: Display build outputs
+      shell: bash
+      run: |
+        echo "Xbox build completed successfully!"
+        echo "Executable: ${{ steps.xbox-build.outputs.executable }}"
+        echo "Output Directory: ${{ steps.xbox-build.outputs.output-directory }}"
+        ls -R "${{ steps.xbox-build.outputs.output-directory }}"
+
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: xbox-build-artifacts
+        path: ${{ steps.xbox-build.outputs.output-directory }}
