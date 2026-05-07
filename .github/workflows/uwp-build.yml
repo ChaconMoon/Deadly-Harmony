@@ -9,6 +9,8 @@ on:
 jobs:
   build:
     runs-on: windows-latest
+    env:
+      CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
     
     steps:
     - name: Checkout repository
@@ -25,7 +27,12 @@ jobs:
           -CertStoreLocation "Cert:\CurrentUser\My" -KeyExportPolicy Exportable
         
         $certPath = "build\Visual Studio Project\Deadly-Harmony_TemporaryKey.pfx"
-        $password = ConvertTo-SecureString -String "temporary" -Force -AsPlainText
+        $passwordPlain = $env:CERT_PASSWORD
+        if (-not $passwordPlain) {
+          Write-Error "Environment variable CERT_PASSWORD is not set. Please add the secret CERT_PASSWORD to the repository."
+          exit 1
+        }
+        $password = ConvertTo-SecureString -String $passwordPlain -Force -AsPlainText
         
         Export-PfxCertificate -Cert $cert -FilePath $certPath -Password $password
         Write-Output "Certificate generated at: $certPath"
@@ -36,9 +43,10 @@ jobs:
       with:
         project-path: './build/Visual Studio Project'
         architecture: 'ARM64'
-        configuration: 'Master'
+        configuration: 'Release'
         package-type: 'sideload'
         certificate-path: './build/Visual Studio Project/Deadly-Harmony_TemporaryKey.pfx'
+        certificate-password: ${{ env.CERT_PASSWORD }}
 
     - name: Display build outputs
       shell: bash
